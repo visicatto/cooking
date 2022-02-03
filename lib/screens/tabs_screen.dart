@@ -16,8 +16,8 @@ class _TabsScreenState extends State<TabsScreen> {
   int _selectedScreenIndex = 0;
 
   final List<String> _titles = [
-    'Lista de Categorias',
-    'Meus Favoritos',
+    'Category List',
+    'My Favorites',
   ];
 
   List<Widget> _screens = [];
@@ -55,11 +55,11 @@ class _TabsScreenState extends State<TabsScreen> {
         items: const [
           BottomNavigationBarItem(
             icon: Icon(Icons.category),
-            label: 'Categorias',
+            label: 'Categories',
           ),
           BottomNavigationBarItem(
             icon: Icon(Icons.star),
-            label: 'Favoritos',
+            label: 'Favorites',
           ),
         ],
       ),

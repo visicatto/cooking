@@ -33,7 +33,7 @@ class MainDrawer extends StatelessWidget {
             color: Theme.of(context).colorScheme.secondary,
             alignment: Alignment.bottomRight,
             child: const Text(
-              'Vamos Cozinhar?',
+              "Let's Cook?",
               style: TextStyle(
                   fontWeight: FontWeight.w900,
                   fontSize: 30,
@@ -42,12 +42,12 @@ class MainDrawer extends StatelessWidget {
           ),
           _createItem(
             Icons.restaurant,
-            'Refeições',
+            'Meals',
             () => Navigator.of(context).pushReplacementNamed(AppRoutes.HOME),
           ),
           _createItem(
             Icons.settings,
-            'Configurações',
+            'Settings',
             () =>
                 Navigator.of(context).pushReplacementNamed(AppRoutes.SETTINGS),
           ),

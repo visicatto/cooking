@@ -51,7 +51,7 @@ class MealDetailScreen extends StatelessWidget {
                 fit: BoxFit.cover,
               ),
             ),
-            _createSectionTitle(context, 'Ingredientes'),
+            _createSectionTitle(context, 'Ingredients'),
             _createContainer(
               ListView.builder(
                 itemCount: meal.ingredients.length,
@@ -69,7 +69,7 @@ class MealDetailScreen extends StatelessWidget {
                 },
               ),
             ),
-            _createSectionTitle(context, 'Passos'),
+            _createSectionTitle(context, 'Step'),
             _createContainer(
               ListView.builder(
                 itemCount: meal.steps.length,
