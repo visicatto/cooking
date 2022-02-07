@@ -63,7 +63,7 @@ class Meal {
       case Cost.Fair:
         return 'Fair';
       case Cost.Expensive:
-        return 'Expansive';
+        return 'Expensive';
       default:
         return 'Unknown';
     }
